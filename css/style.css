@@ -388,7 +388,7 @@ input, textarea {
 .na-guide {
   margin-top: 40px;
   width: 100%;
-  background: url("../img/guide-bg.jpg");
+  background-image: linear-gradient(to left bottom, #163f7e, #3e4a93, #6155a6, #855eb7, #a967c6);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
