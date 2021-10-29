@@ -71,7 +71,7 @@ input, textarea {
 
 #na-header-wrapper {
   width: 100%;
-  background-image: linear-gradient(180deg, red, yellow);
+  background-image: linear-gradient(to right top, #3757c8, #5759c8, #6f5cc8, #835fc8, #9462c7, #946dcf, #9477d7, #9481de, #8392eb, #72a2f4, #65b1f9, #5fbefb);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
