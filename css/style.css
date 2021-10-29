@@ -65,7 +65,7 @@ input, textarea {
 }
 
 .header-fixed.fixed {
-  background: #11ca8c;
+  background-image: linear-gradient(to right top, #3757c8, #5759c8, #6f5cc8, #835fc8, #9462c7, #946dcf, #9477d7, #9481de, #8392eb, #72a2f4, #65b1f9, #5fbefb);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
