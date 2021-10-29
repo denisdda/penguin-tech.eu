@@ -630,122 +630,13 @@ input, textarea {
 }
 
 /* ==========================================================================================================
-										REVIEWS
-   ========================================================================================================== */
-.na-reviews {
-  margin-top: 90px;
-  width: 100%;
-  background: url("../img/review-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;
-  height: 730px;
-  left: 0;
-  top: 0;
-  z-index: 1;
-  padding: 90px 0 90px;
-}
-
-.na-reviews .img-quotes {
-  padding-bottom: 30px;
-}
-
-.na-reviews .box-title {
-  font-size: 32px;
-  color: #FFF;
-  font-weight: 600;
-  padding-bottom: 15px;
-}
-
-.na-reviews .item-author {
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-align-content: stretch;
-  -ms-flex-line-pack: stretch;
-  align-content: stretch;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-top: 1px solid #dddd;
-  margin-top: 30px;
-  padding: 30px 0px 0;
-}
-
-.na-reviews p {
-  max-width: 800px;
-  margin: auto;
-  font-size: 14px;
-  color: #ffff;
-  padding-bottom: 60px;
-}
-
-.na-reviews .item {
-  background: #FFF;
-  border-radius: 5px;
-  margin: 0 15px;
-  text-align: center;
-  padding: 40px;
-}
-
-.na-reviews .about-author {
-  text-align: left;
-  padding-left: 30px;
-}
-
-.na-reviews .testimonial-desc {
-  font-size: 14px;
-  color: #9b9b9e;
-  padding-bottom: 0;
-}
-
-.na-reviews .name-author {
-  display: block;
-  color: #1676f2;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.na-reviews .position-author {
-  display: block;
-  padding-top: 3px;
-  font-size: 14px;
-  color: #9b9b9e;
-}
-
-.na-reviews .owl-theme .owl-dots .owl-dot {
-  margin-top: 20px;
-}
-
-.na-reviews .img-author {
-  max-width: 70px;
-  border-radius: 100%;
-}
-
-.na-reviews .owl-carousel .owl-item img.img-quotes {
-  width: auto;
-  text-align: center;
-  display: inline-block;
-}
-
-/* ==========================================================================================================
 										SERIVICE
    ========================================================================================================== */
 .na-service .box-left {
   text-align: center;
   width: 50%;
   float: left;
-  background: url("../img/serviceleft-bg.jpg");
+  background-image: linear-gradient(to bottom, #163f7e, #3e4a93, #6155a6, #855eb7, #a967c6);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
