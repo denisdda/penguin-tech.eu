@@ -65,7 +65,7 @@ input, textarea {
 }
 
 .header-fixed.fixed {
-  background: rgb(180, 180, 180);
+  background: #855eb7;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
