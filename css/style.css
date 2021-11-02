@@ -69,6 +69,11 @@ input, textarea {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+.header-fixed.fixed { display: inline; }
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .header-fixed.fixed { height: 70px; }}
+
 #na-header-wrapper {
   width: 100%;
   background-image: linear-gradient(to right top, #163f7e, #3e4a93, #6155a6, #855eb7, #a967c6);
