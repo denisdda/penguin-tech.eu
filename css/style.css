@@ -392,12 +392,16 @@ input, textarea {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-  height: 650px;
+  height: 800px;
   left: 0;
   top: 0;
   z-index: 1;
   padding: 90px 0 50px;
 }
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .na-guide { height: 400px; }}
 
 .na-guide .box-title {
   font-size: 32px;
